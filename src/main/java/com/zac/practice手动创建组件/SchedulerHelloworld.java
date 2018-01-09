@@ -13,6 +13,7 @@ public class SchedulerHelloworld {
                 .usingJobData("data1", "Quartz测试")
                 .build();
 
+
 //        Trigger cronTrigger = TriggerBuilder.newTrigger()
 //                .withIdentity("mytrigger", "trigger_group_1").startNow()
 //                .withSchedule(
